@@ -1,18 +1,17 @@
-package co.com.k4soft.sistemanotas.entidades;
+package co.com.k4soft.sistemanotas.comando;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class DetalleNota {
+public class ComandoDetalleNota {
 	
 	private Integer idDetalleNota;
-	private Asignatura asignatura;
-	private Estudiante estudiante;
+	private Integer idAsignatura;
+	private Integer idEstudiante;
 	private double notaParcial;
 	private double notaFinal;
 	private double notaSeguimiento;
-	
 
 }

@@ -1,4 +1,4 @@
-package co.com.k4soft.sistemanotas.entidades;
+package co.com.k4soft.sistemanotas.entidad;
 
 import lombok.Getter;
 import lombok.Setter;
